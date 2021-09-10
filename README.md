@@ -36,14 +36,10 @@ This project uses Python packages: pandas, numpy, request, os, seaborn, bokeh, s
 
 ![MTA Traffic](https://github.com/CeliaSagas/coffee-time/blob/7d325f57443562c08f0457e894099e3f96ba50c7/2019_2021_traffic.png)
 
-<iframe src="/img/starbucks.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
+With this data, we can identify the top 20 Starbucks location in Manhattan to open, priority identified by proximity to the MTA stations with the fastest growing foot traffic.
+
+![Starbucks Locations](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+
 
 # Table of contents
 

@@ -36,7 +36,14 @@ This project uses Python packages: pandas, numpy, request, os, seaborn, bokeh, s
 
 ![MTA Traffic](https://github.com/CeliaSagas/coffee-time/blob/7d325f57443562c08f0457e894099e3f96ba50c7/2019_2021_traffic.png)
 
-![Starbucks Map](https://github.com/CeliaSagas/coffee-time/blob/7d325f57443562c08f0457e894099e3f96ba50c7/Starbucks_Map.png)
+<iframe src="starbucks.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 # Table of contents
 

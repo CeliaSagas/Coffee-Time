@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="35d5695a-05bd-4f1c-8a24-39426e05e590" data-root-id="1134"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1270">
+          {"74a9d9ee-9023-495a-8298-2805610235d2":{"roots":{"references":[{"attributes":{"api_key":"QUl6YVN5QUo4cGtKSXRtbENRdDJ3NHcxOE5fd1JzbUhkWVFuc19F","below":[{"id":"1143"}],"left":[{"id":"1148"}],"map_options":{"id":"1132"},"renderers":[{"id":"1165"}],"title":{"id":"1135"},"toolbar":{"id":"1155"},"x_range":{"id":"1136"},"x_scale":{"id":"1176"},"y_range":{"id":"1137"},"y_scale":{"id":"1175"}},"id":"1134","subtype":"GMap","type":"GMapPlot"},{"attributes":{"callback":null,"tooltips":[["Priority","@order"],["Name","@name"],["Address","@address"]]},"id":"1160","type":"HoverTool"},{"attributes":{"dimension":"lon"},"id":"1142","type":"MercatorTicker"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"long"},"y":{"field":"lat"}},"id":"1163","type":"Circle"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1151"},{"id":"1152"},{"id":"1153"},{"id":"1154"},{"id":"1160"}]},"id":"1155","type":"Toolbar"},{"attributes":{},"id":"1136","type":"Range1d"},{"attributes":{"dimension":"lat"},"id":"1147","type":"MercatorTicker"},{"attributes":{},"id":"1137","type":"Range1d"},{"attributes":{"dimension":"lat"},"id":"1146","type":"MercatorTickFormatter"},{"attributes":{},"id":"1176","type":"LinearScale"},{"attributes":{"formatter":{"id":"1141"},"ticker":{"id":"1142"}},"id":"1143","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1133"},"glyph":{"id":"1163"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1164"},"selection_glyph":null,"view":{"id":"1166"}},"id":"1165","type":"GlyphRenderer"},{"attributes":{"lat":40.734952,"lng":-73.99421154999999,"zoom":13},"id":"1132","type":"GMapOptions"},{"attributes":{},"id":"1151","type":"PanTool"},{"attributes":{"dimension":"lon"},"id":"1141","type":"MercatorTickFormatter"},{"attributes":{},"id":"1153","type":"ResetTool"},{"attributes":{},"id":"1152","type":"WheelZoomTool"},{"attributes":{"source":{"id":"1133"}},"id":"1166","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"green"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"long"},"y":{"field":"lat"}},"id":"1164","type":"Circle"},{"attributes":{"formatter":{"id":"1146"},"ticker":{"id":"1147"}},"id":"1148","type":"LinearAxis"},{"attributes":{"text":"Starbucks Locations to Open for in-store Orders in Manhattan"},"id":"1135","type":"Title"},{"attributes":{},"id":"1154","type":"HelpTool"},{"attributes":{},"id":"1177","type":"UnionRenderers"},{"attributes":{"data":{"address":["250 Greenwich St, New York, NY ","185 Greenwich St, New York, NY ","195 Broadway, New York, NY ","125 Park Ave, New York, NY ","7800 Grand Central Station Track 35, New York, NY ","340 Madison Ave, New York, NY ","977 6th Ave, New York, NY ","151 W 34th St, New York, NY ","875 6th Ave, New York, NY ","625 8th Ave, New York, NY ","684 8th Ave, New York, NY ","593 9th Ave, New York, NY ","494 8th Ave, New York, NY ","Moynihan Train Hall, 383 W 31st St, New York, NY ","Pennsylvania Station, Amtrak Main Course, Pennsylvania Plaza, New York, "],"lat":{"__ndarray__":"zqwAOidbREBdZ+hEJ1tEQB4zUBn/WkRA1v1jITpgREBqh78ma2BEQPq19dN/YERANwAbECFgREAbt5ifG2BEQPtvyoHDX0RAG9gqweJgREDrqkAtBmFEQBzuI7cmYURA648wDFhgREDcnbXbLmBEQLlwICQLYERA","dtype":"float64","order":"little","shape":[15]},"long":{"__ndarray__":"k7dtKbGAUsBwJqYLsYBSwKmFksmpgFLAzTtO0ZF+UsCGj4gpkX5SwL309ueiflLAnOJxUS1/UsCa6zTSUn9SwO5oLRZQf1LAXdxGA3h/UsBEpKZdTH9SwFcIq7GEf1LAg6J5AIt/UsBdUN8yp39SwGQ730+Nf1LA","dtype":"float64","order":"little","shape":[15]},"name":["Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks","Starbucks"],"order":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]},"selected":{"id":"1178"},"selection_policy":{"id":"1177"}},"id":"1133","type":"ColumnDataSource"},{"attributes":{},"id":"1178","type":"Selection"},{"attributes":{},"id":"1175","type":"LinearScale"}],"root_ids":["1134"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1270').textContent;
+                  var render_items = [{"docid":"74a9d9ee-9023-495a-8298-2805610235d2","root_ids":["1134"],"roots":{"1134":"35d5695a-05bd-4f1c-8a24-39426e05e590"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

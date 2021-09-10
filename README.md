@@ -40,6 +40,7 @@ With this data, we can identify the top 20 Starbucks location in Manhattan to op
 
 ![Starbucks Locations](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
 
+[Click Here](https://github.com/CeliaSagas/coffee-time) to see the full project
 
 # Table of contents
 
@@ -77,6 +78,8 @@ And download the appropriate packages with
 Download the latest MTA traffic data at:
 
 [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html)
+
+Then use this code to visualize the latest changes in foot traffic, highest performing stations, and adjacent Starbucks locations for re-opening.
 
 
 # License

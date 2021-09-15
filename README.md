@@ -61,7 +61,7 @@ To use this project, first clone the repo on your device using the command below
 
 ```git init```
 
-```git clone https://github.com/navendu-pottekkat/nsfw-filter.git```
+```git clone https://github.com/CeliaSagas/coffee-time.git```
 
 And download the appropriate packages with
 
